@@ -14,26 +14,50 @@ export const Footer = () => {
 
                         {/* Column */}
                         <ul className="space-y-3 text-sm">
-                            <li><span className="hover:text-gray-400 cursor-pointer transition">Company</span></li>
-                            <li><span className="hover:text-gray-400 cursor-pointer transition">Sustainability</span></li>
-                            <li><span className="hover:text-gray-400 cursor-pointer transition">Cookie settings</span></li>
+                            <li>
+                                <Link to='/company' className="hover:text-gray-400 cursor-pointer transition">Company</Link>
+                            </li>
+                            <li>
+                                <Link to='/sustainability' className="hover:text-gray-400 cursor-pointer transition">Sustainability
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to='/cookie-settings' className="hover:text-gray-400 cursor-pointer transition">Cookie settings
+                                </Link>
+                            </li>
                         </ul>
 
                         <ul className="space-y-3 text-sm">
-                            <li><span className="hover:text-gray-400 cursor-pointer transition">Financials</span></li>
-                            <li><span className="hover:text-gray-400 cursor-pointer transition">Media Center</span></li>
-                            <li><span className="hover:text-gray-400 cursor-pointer transition">Sitemap</span></li>
+                            <li>
+                                <Link to='/financials' className="hover:text-gray-400 cursor-pointer transition">Financials</Link>
+                            </li>
+                            <li>
+                                <Link to='/media-center' className="hover:text-gray-400 cursor-pointer transition">Media Center</Link>
+                            </li>
+                            <li>
+                                <Link to='/sitemap' className="hover:text-gray-400 cursor-pointer transition">Sitemap</Link>
+                            </li>
                         </ul>
 
                         <ul className="space-y-3 text-sm">
-                            <li><span className="hover:text-gray-400 cursor-pointer transition">Careers</span></li>
-                            <li><span className="hover:text-gray-400 cursor-pointer transition">Privacy & Legal</span></li>
-                            <li><span className="hover:text-gray-400 cursor-pointer transition">Newsletter</span></li>
+                            <li>
+                                <Link to='/careers' className="hover:text-gray-400 cursor-pointer transition">Careers</Link>
+                            </li>
+                            <li>
+                                <Link to='/privacy-policy' className="hover:text-gray-400 cursor-pointer transition">Privacy & Legal</Link>
+                            </li>
+                            <li>
+                                <Link to='/newsletter' className="hover:text-gray-400 cursor-pointer transition">Newsletter</Link>
+                            </li>
                         </ul>
 
                         <ul className="space-y-3 text-sm">
-                            <li><span className="hover:text-gray-400 cursor-pointer transition">Contact us</span></li>
-                            <li><span className="hover:text-gray-400 cursor-pointer transition">Accessibility</span></li>
+                            <li>
+                                <Link to='/contact-us' className="hover:text-gray-400 cursor-pointer transition">Contact us</Link>
+                            </li>
+                            <li>
+                                <Link to='/accessibility' className="hover:text-gray-400 cursor-pointer transition">Accessibility</Link>
+                            </li>
                         </ul>
 
                         {/* Social */}
@@ -43,13 +67,27 @@ export const Footer = () => {
                             </p>
 
                             <div className="flex flex-wrap gap-4 text-lg">
-                                <i className="ri-instagram-line hover:text-gray-400 cursor-pointer"></i>
-                                <i className="ri-threads-fill hover:text-gray-400 cursor-pointer"></i>
-                                <i className="ri-facebook-fill hover:text-gray-400 cursor-pointer"></i>
-                                <i className="ri-youtube-fill hover:text-gray-400 cursor-pointer"></i>
-                                <i className="ri-twitter-x-line hover:text-gray-400 cursor-pointer"></i>
-                                <i className="ri-tiktok-fill hover:text-gray-400 cursor-pointer"></i>
-                                <i className="ri-linkedin-fill hover:text-gray-400 cursor-pointer"></i>
+                                <Link to="/instagram" target="_blank" rel="noopener noreferrer">
+                                    <i className="ri-instagram-line hover:text-gray-400 cursor-pointer"></i>
+                                </Link>
+                                <Link to="/threads" target="_blank" rel="noopener noreferrer">
+                                    <i className="ri-threads-fill hover:text-gray-400 cursor-pointer"></i>
+                                </Link>
+                                <Link to="/facebook" target="_blank" rel="noopener noreferrer">
+                                    <i className="ri-facebook-fill hover:text-gray-400 cursor-pointer"></i>
+                                </Link>
+                                <Link to="/youtube" target="_blank" rel="noopener noreferrer">
+                                    <i className="ri-youtube-fill hover:text-gray-400 cursor-pointer"></i>
+                                </Link>
+                                <Link to="/twitter" target="_blank" rel="noopener noreferrer">
+                                    <i className="ri-twitter-x-line hover:text-gray-400 cursor-pointer"></i>
+                                </Link>
+                                <Link to="/tiktok" target="_blank" rel="noopener noreferrer">
+                                    <i className="ri-tiktok-fill hover:text-gray-400 cursor-pointer"></i>
+                                </Link>
+                                <Link to="/linkedin" target="_blank" rel="noopener noreferrer">
+                                    <i className="ri-linkedin-fill hover:text-gray-400 cursor-pointer"></i>
+                                </Link>
                             </div>
                         </div>
 
