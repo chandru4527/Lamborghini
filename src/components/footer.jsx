@@ -68,25 +68,25 @@ export const Footer = () => {
 
                             <div className="flex flex-wrap gap-4 text-lg">
                                 <Link to="/instagram" target="_blank" rel="noopener noreferrer">
-                                    <i className="ri-instagram-line hover:text-gray-400 cursor-pointer"></i>
+                                    <i className="ri-instagram-line hover:text-gray-400 cursor-pointer hover:scale-110"></i>
                                 </Link>
                                 <Link to="/threads" target="_blank" rel="noopener noreferrer">
-                                    <i className="ri-threads-fill hover:text-gray-400 cursor-pointer"></i>
+                                    <i className="ri-threads-fill hover:text-gray-400 cursor-pointer hover:scale-110"></i>
                                 </Link>
                                 <Link to="/facebook" target="_blank" rel="noopener noreferrer">
-                                    <i className="ri-facebook-fill hover:text-gray-400 cursor-pointer"></i>
+                                    <i className="ri-facebook-fill hover:text-gray-400 cursor-pointer hover:scale-110"></i>
                                 </Link>
                                 <Link to="/youtube" target="_blank" rel="noopener noreferrer">
-                                    <i className="ri-youtube-fill hover:text-gray-400 cursor-pointer"></i>
+                                    <i className="ri-youtube-fill hover:text-gray-400 cursor-pointer hover:scale-110"></i>
                                 </Link>
                                 <Link to="/twitter" target="_blank" rel="noopener noreferrer">
-                                    <i className="ri-twitter-x-line hover:text-gray-400 cursor-pointer"></i>
+                                    <i className="ri-twitter-x-line hover:text-gray-400 cursor-pointer hover:scale-110"></i>
                                 </Link>
                                 <Link to="/tiktok" target="_blank" rel="noopener noreferrer">
-                                    <i className="ri-tiktok-fill hover:text-gray-400 cursor-pointer"></i>
+                                    <i className="ri-tiktok-fill hover:text-gray-400 cursor-pointer hover:scale-110"></i>
                                 </Link>
                                 <Link to="/linkedin" target="_blank" rel="noopener noreferrer">
-                                    <i className="ri-linkedin-fill hover:text-gray-400 cursor-pointer"></i>
+                                    <i className="ri-linkedin-fill hover:text-gray-400 cursor-pointer hover:scale-110"></i>
                                 </Link>
                             </div>
                         </div>
